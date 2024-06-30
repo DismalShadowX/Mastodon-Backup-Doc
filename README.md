@@ -1,4 +1,4 @@
-# The guide is now open-source
+**The guide is now open-source**
 
 > [!NOTE]
 > Based on my blog: [A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database](https://press.everythingbagel.me/shadow/a-comprehensive-guide-to-backing-up-and-restoring-your-mastodon-database)
@@ -140,7 +140,7 @@ This will load your backup into the test database without affecting your product
 ### The Docker Method
 This guide should work for docker environment, you may need to adjust PostgreSQL path in `docker-compose.yml` for PostgreSQL if needed.
 
-Conclusion
+**Conclusion**
 
 Backing up and restoring your Mastodon database is a critical aspect of managing your Mastodon instance. By following the steps outlined in this guide, you can safeguard and confidently back up and restore your Mastodon database against data loss and ensure a smooth recovery in case of emergencies using the `pg_dump` and `pg_restore` tools, ensuring your community's data remains safe and accessible. Regularly creating and test your restores, not once, not twice, 3-2-1 rule is the best practice that ensures the long-term health, reliability, stability, secure and resilient of your Mastodon community.
 
