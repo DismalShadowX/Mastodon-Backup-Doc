@@ -1,3 +1,5 @@
+# A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database
+
 **The guide is now open-source**
 
 > [!NOTE]
@@ -5,8 +7,6 @@
 
 > [!TIP]
 > The goal is to improve and rewrite this outdated guide before the official 4.3.0 release
-
-# A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database
 
 Mastodon, a popular open-source social media platform, has gained significant traction in recent years. As an administrator of a Mastodon instance, you understand the importance of safeguarding your data and ensure that your Mastodon instance stays up and running. Regularly creating backups of your Mastodon database is a fundamental part of maintaining a secure and reliable platform. In this guide, I'll walk you through the process of backing up and restoring your Mastodon database using `pg_dump` and `pg_restore` tools.
 
