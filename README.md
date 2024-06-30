@@ -1,3 +1,11 @@
+# The guide is now open-source
+
+> [!NOTE]
+> Based on my blog: [A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database](https://press.everythingbagel.me/shadow/a-comprehensive-guide-to-backing-up-and-restoring-your-mastodon-database)
+
+> [!TIP]
+> The goal is to improve and rewrite this outdated guide before the official 4.3.0 release
+
 # A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database
 
 Mastodon, a popular open-source social media platform, has gained significant traction in recent years. As an administrator of a Mastodon instance, you understand the importance of safeguarding your data and ensure that your Mastodon instance stays up and running. Regularly creating backups of your Mastodon database is a fundamental part of maintaining a secure and reliable platform. In this guide, I'll walk you through the process of backing up and restoring your Mastodon database using `pg_dump` and `pg_restore` tools.
@@ -135,3 +143,11 @@ This guide should work for docker environment, you may need to adjust PostgreSQL
 Conclusion
 
 Backing up and restoring your Mastodon database is a critical aspect of managing your Mastodon instance. By following the steps outlined in this guide, you can safeguard and confidently back up and restore your Mastodon database against data loss and ensure a smooth recovery in case of emergencies using the `pg_dump` and `pg_restore` tools, ensuring your community's data remains safe and accessible. Regularly creating and test your restores, not once, not twice, 3-2-1 rule is the best practice that ensures the long-term health, reliability, stability, secure and resilient of your Mastodon community.
+
+## Contributing
+
+[Pull requests](https://github.com/DismalShadowX/Mastodon-Backup-Doc/pulls) are welcome to improve and rewrite the guide before the official 4.3.0 release, feel free to contribute to this repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
