@@ -3,7 +3,7 @@
 **The guide is now open-source**
 
 > [!NOTE]
-> Based on my blog: [A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database](https://press.everythingbagel.me/shadow/a-comprehensive-guide-to-backing-up-and-restoring-your-mastodon-database)
+> Based on my blog: [A Comprehensive Guide to Backing Up and Restoring Your Mastodon Database](https://press.everythingbagel.me/fediverse/a-comprehensive-guide-to-backing-up-and-restoring-your-mastodon-database)
 
 > [!TIP]
 > The goal is to improve and rewrite this outdated guide before the official 4.3.0 release
